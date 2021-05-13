@@ -1,2 +1,17 @@
 /* CSS GRID */
 /* **************************************************************** */
+/* GRID PROYECTOS*/
+.gridProy{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 50px);
+    grid-row-gap: 50px;
+}
+
+.gridClientes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 41px;
+}

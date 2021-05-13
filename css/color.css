@@ -39,4 +39,17 @@ footer{
     height: 50px;
     padding-block: 0.5rem;
 }
+.btnAzul{
+    background-color: #9DC2F9;
+    display: block;
+    height: 50px;
+    width: 100%;
+    padding-block: 0.5rem; 
+}
 
+.clientes{
+    background-color: #C4C4C4;
+}
+.cliente{
+    background-color: var(--colorOrange);
+}
